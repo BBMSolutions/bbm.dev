@@ -1,58 +1,45 @@
-import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
-import "./globals.css"
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "@/app/globals.css";
+import { SmoothScroll } from "@/components/providers/smooth-scroll";
+import { cn } from "@/lib/utils";
 
-import Navbar from "@/src/components/layout/Navbar"
-import Footer from "@/src/components/layout/Footer"
-import ScrollToTop from "@/src/components/ui/ScrollToTop"
-
+// Configuración de fuentes
 const geistSans = Geist({
-  variable: "--font-geist-sans",
+  variable: "--font-sans",
   subsets: ["latin"],
-})
+});
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+  variable: "--font-mono",
   subsets: ["latin"],
-})
+});
 
+// SEO y Metadatos de BBM
 export const metadata: Metadata = {
-  title: "BBM | Soluciones Digitales",
-  description:
-    "Desarrollo de software, aplicaciones web y sistemas a la medida",
-}
+  title: "BBM.dev | Soluciones Tecnológicas de Alto Impacto",
+  description: "Desarrollo de plataformas a medida y optimización de procesos para empresas modernas.",
+  keywords: ["Desarrollo Web", "Software a medida", "BBM", "Optimización de procesos"],
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="es" suppressHydrationWarning>
       <body
-        className={`
-          ${geistSans.variable}
-          ${geistMono.variable}
-          min-h-screen
-          flex
-          flex-col
-          antialiased
-        `}
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased",
+          geistSans.variable,
+          geistMono.variable
+        )}
       >
-        {/* Navbar (no fija) */}
-        <Navbar />
-
-        {/* Contenido */}
-        <main className="flex-1">
+        <SmoothScroll>
           {children}
-        </main>
-
-        {/* Footer */}
-        <Footer />
-
-        {/* Botón volver arriba */}
-        <ScrollToTop />
+        </SmoothScroll>
       </body>
     </html>
-  )
+  );
 }
