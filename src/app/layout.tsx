@@ -1,44 +1,42 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "@/app/globals.css";
-import { SmoothScroll } from "@/components/providers/smooth-scroll";
-import { cn } from "@/lib/utils";
+import { IBM_Plex_Mono, Plus_Jakarta_Sans } from "next/font/google";
+import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
+import { RouteLoader } from "@/components/route-loader";
+import "./globals.css";
 
-// Configuración de fuentes
-const geistSans = Geist({
-  variable: "--font-sans",
+const plusJakartaSans = Plus_Jakarta_Sans({
+  variable: "--font-plus-jakarta",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-mono",
+const ibmPlexMono = IBM_Plex_Mono({
+  variable: "--font-ibm-plex-mono",
   subsets: ["latin"],
+  weight: ["400", "500", "600"],
 });
 
-// SEO y Metadatos de BBM
 export const metadata: Metadata = {
-  title: "BBM.dev | Soluciones Tecnológicas de Alto Impacto",
-  description: "Desarrollo de plataformas a medida y optimización de procesos para empresas modernas.",
-  keywords: ["Desarrollo Web", "Software a medida", "BBM", "Optimización de procesos"],
+  title: {
+    default: "BBM | Herramientas Digitales a la Medida y Control Empresarial",
+    template: "%s | BBM",
+  },
+  description:
+    "BBM desarrolla herramientas digitales a la medida y plataformas por suscripción para simplificar procesos internos, optimizar flujos de trabajo y dar a cada dueño control total sobre su empresa.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="es" suppressHydrationWarning>
-      <body
-        className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          geistSans.variable,
-          geistMono.variable
-        )}
-      >
-        <SmoothScroll>
-          {children}
-        </SmoothScroll>
+    <html
+      lang="es"
+      className={`${plusJakartaSans.variable} ${ibmPlexMono.variable} h-full antialiased`}
+    >
+      <body className="flex min-h-full flex-col bg-background text-foreground">
+        <RouteLoader />
+        <SiteHeader />
+        <main className="flex-1">{children}</main>
+        <SiteFooter />
       </body>
     </html>
   );

@@ -1,0 +1,227 @@
+================================================================================
+GUÍA Y PROMPTS PARA VIDEO INSTITUCIONAL — BBM SOLUCIONES DIGITALES
+Archivo: promptvideo
+Duración total estimada: 40 segundos (dividido en 5 fragmentos de 8 segundos)
+Formato final recomendado: 1920 x 1080 px (16:9 Full HD), MP4 (H.264) y WebM
+================================================================================
+
+1. CONTEXTO GENERAL PARA LA IA DE VIDEO (LEER ANTES DE GENERAR)
+--------------------------------------------------------------------------------
+- Empresa: BBM es una empresa multidisciplinaria en México dedicada a crear
+  herramientas digitales a la medida (para computadora, tableta y celular) que
+  simplifican los procesos internos de las empresas, eliminan el papeleo,
+  evitan fugas de dinero y dan al dueño control total y tranquilidad sobre su
+  negocio.
+- Público objetivo: Dueños de empresas, directores, ingenieros, médicos,
+  administradores y comerciantes (NO programadores).
+- Objetivo del video: Mostrar en 40 segundos el contraste entre una empresa
+  desordenada con papeleo y estrés, frente a una empresa que opera con orden,
+  avisos claros en tiempo real y control total gracias a BBM.
+- Estilo visual obligatorio (NO hiperrealista):
+  Animación corporativa estilizada en 3D limpio / motion graphics isométrico
+  editorial (acabado mate tipo maqueta arquitectónica premium, iluminación
+  suave de estudio con luz natural cálida y sombras limpias).
+- Paleta de colores consistente en TODOS los fragmentos:
+  * Fondo claro limpio: Blanco alabastro (#F8F9FB) y gris perla (#EEF2F7)
+  * Color principal de marca: Azul marino profundo (#0B1220) y azul cobalto (#15428B)
+  * Acentos de control y éxito: Azul cielo (#0EA5E9) y verde esmeralda (#10B981)
+  * Acento de desorden (solo Fragmento 1): Ámbar suave (#F59E0B) y gris opaco
+- Reglas críticas para evitar errores de la IA:
+  * NO incluir párrafos ni textos pequeños legibles generados por la IA (se
+    añadirán en edición si se desea). Usar únicamente íconos limpios, gráficas
+    simples, palomitas verdes y las siglas "BBM" solo en el fragmento final.
+  * Evitar estética "cyberpunk", luces neón moradas, hologramas exagerados o
+    caricaturas infantiles. Debe verse serio, moderno, amigable y profesional.
+  * Mantener la misma iluminación suave y acabado mate 3D en los 5 clips para
+    que parezcan parte del mismo video al unirlos.
+
+
+================================================================================
+2. PROMPTS DIVIDIDOS EN 5 FRAGMENTOS (8 SEGUNDOS CADA UNO)
+================================================================================
+
+--------------------------------------------------------------------------------
+FRAGMENTO 1 (00:00 – 00:08) · EL PROBLEMA: PAPELEO, RETRASOS Y DESORDEN
+--------------------------------------------------------------------------------
+Objetivo visual: Transmitir el desgaste diario del papeleo, las carpetas
+acumuladas y la falta de visibilidad sin mostrar dramatismo exagerado.
+
+[PROMPT EN ESPAÑOL]
+Animación corporativa 3D estilizada con acabado mate limpio, formato 16:9,
+iluminación suave de oficina moderna. Vista isométrica ligeramente elevada de
+un escritorio empresarial saturado de pilas desordenadas de hojas de papel,
+carpetas apiladas, notas adhesivas cayendo lentamente y un reloj estilizado
+avanzando rápido. Pequeños íconos flotantes de color ámbar con signos de
+exclamación aparecen sobre las pilas de papel representando retrasos y falta de
+control. Movimiento de cámara lento y fluido acercándose hacia el centro del
+escritorio. Sin texto legible, sin rostros hiperrealistas, estética seria,
+limpia y profesional, paleta en grises claros, blanco alabastro y acentos ámbar.
+
+[PROMPT OPTIMIZADO EN INGLÉS (RECOMENDADO PARA VEO / KLING / RUNWAY / SORA)]
+Stylized clean 3D corporate motion graphics animation, matte architectural
+clay-and-glass aesthetic, 16:9 widescreen, soft studio daylight. Elevated
+isometric view of a modern business desk cluttered with tall messy stacks of
+paper documents, folders, gently fluttering sticky notes, and a sleek stylized
+clock ticking rapidly. Subtle floating amber alert dots hover over the paper
+piles symbolizing slow manual processes and confusion. Smooth slow cinematic
+dolly-in toward the center of the desk. No readable text, no neon lights,
+no cartoonish characters, refined professional palette of off-white, cool slate
+gray, and muted amber accents.
+
+[VOZ EN OFF / SUBTÍTULO SUGERIDO EN EDICIÓN]
+"¿Sientes que el papeleo, los retrasos y el desorden frenan el crecimiento de
+tu empresa?"
+
+
+--------------------------------------------------------------------------------
+FRAGMENTO 2 (00:08 – 00:16) · LA TRANSFORMACIÓN CON BBM
+--------------------------------------------------------------------------------
+Objetivo visual: Mostrar cómo el caos de hojas y procesos lentos se convierte
+en orden digital limpio, rápido y estructurado.
+
+[PROMPT EN ESPAÑOL]
+Continuación directa con el mismo estilo de animación 3D corporativa mate
+limpia en 16:9. Las pilas de papeles y carpetas desordenadas del escritorio se
+elevan suavemente, se ordenan en el aire y se transforman mediante una onda de
+luz azul cobalto (#15428B) en tarjetas digitales ordenadas y líneas de flujo
+limpias que ingresan dentro de una computadora portátil minimalista ubicada al
+centro del escritorio ahora impecable y luminoso. Movimiento de cámara suave
+orbitando ligeramente hacia la pantalla iluminada. Sin texto legible, sin
+hologramas exagerados, estilo elegante, amigable y profesional.
+
+[PROMPT OPTIMIZADO EN INGLÉS]
+Seamless continuation in the same clean matte 3D corporate motion graphics
+style, 16:9 widescreen, bright soft studio daylight. The cluttered paper stacks
+and folders lift gently off the desk, align neatly in mid-air, and smoothly
+transform through a calm cobalt-blue wave of light into crisp geometric digital
+cards and clean flowing lines that glide neatly into a sleek minimalist laptop
+at the center of a now spotless modern desk. Gentle smooth camera orbit around
+the desk. No readable text, no sci-fi neon, refined alabaster white, deep navy,
+and cobalt blue color palette.
+
+[VOZ EN OFF / SUBTÍTULO SUGERIDO EN EDICIÓN]
+"En BBM transformamos tus procesos internos en herramientas digitales claras y
+hechas exactamente a la medida de tu negocio."
+
+
+--------------------------------------------------------------------------------
+FRAGMENTO 3 (00:16 – 00:24) · CONTROL MULTIDISPOSITIVO Y AVISOS EN VIVO
+--------------------------------------------------------------------------------
+Objetivo visual: Mostrar que las herramientas funcionan en computadora, tableta
+y celular, con avisos sencillos de cada paso completado y dinero protegido.
+
+[PROMPT EN ESPAÑOL]
+Mismo estilo de animación 3D corporativa mate elegante en 16:9 sobre fondo claro
+alabastro. En primer plano limpio aparecen tres dispositivos sincronizados
+sobre un escritorio moderno de madera clara: una laptop al centro, una tableta
+a la izquierda y un teléfono celular a la derecha. Las pantallas muestran una
+interfaz amigable de fondo blanco con barras de progreso simples en azul
+cobalto y verde esmeralda. Tres tarjetas de notificación estilizadas con
+palomitas verdes de aprobación flotan suavemente en secuencia desde el celular
+hacia la laptop, simbolizando una solicitud enviada, revisada y cumplida con
+respaldo. Movimiento de cámara suave lateral de izquierda a derecha. Sin texto
+legible, sensación de orden, facilidad y confianza.
+
+[PROMPT OPTIMIZADO EN INGLÉS]
+Same refined matte 3D corporate animation style, 16:9 widescreen, soft bright
+daylight on a clean light oak desk with alabaster background. Three minimalist
+synchronized devices sit neatly side by side: a tablet on the left, a sleek
+laptop in the center, and a smartphone on the right. Their screens display clean
+white user-friendly dashboards with simple cobalt-blue charts and emerald-green
+progress bars. Three clean floating notification cards with crisp emerald green
+checkmarks appear gently in sequence, gliding smoothly from the smartphone to
+the laptop to represent a request sent, reviewed, and completed. Smooth slow
+horizontal tracking shot from left to right. No readable text, calm trustworthy
+corporate tone.
+
+[VOZ EN OFF / SUBTÍTULO SUGERIDO EN EDICIÓN]
+"Recibe avisos claros en tiempo real desde tu computadora, tableta o celular:
+solicitudes revisadas, procesos cumplidos y tu dinero siempre protegido."
+
+
+--------------------------------------------------------------------------------
+FRAGMENTO 4 (00:24 – 00:32) · VERSATILIDAD EN CADA INDUSTRIA
+--------------------------------------------------------------------------------
+Objetivo visual: Mostrar de forma visual que BBM atiende distintos rubros
+(oficina administrativa, planta industrial, talleres, consultorios y servicios).
+
+[PROMPT EN ESPAÑOL]
+Mismo estilo de animación 3D isométrica limpia con acabado mate arquitectónico,
+16:9. La cámara realiza un desplazamiento fluido y continuo recorriendo cuatro
+pequeñas maquetas isométricas limpias colocadas en secuencia sobre un plano
+blanco minimalista, conectadas por una línea luminosa azul cobalto y verde
+esmeralda: primero una oficina administrativa ordenada, segundo una nave
+industrial limpia con cajas y flujo de producción ordenado, tercero un taller
+automotriz moderno con un auto estilizado, y cuarto un consultorio médico
+luminoso. Sobre cada maqueta aparece un pequeño escudo verde esmeralda con una
+palomita indicando control total. Movimiento de cámara panorámico fluido y
+constante. Sin texto, acabado sobrio, moderno y premium.
+
+[PROMPT OPTIMIZADO EN INGLÉS]
+Same clean matte 3D isometric architectural animation style, 16:9 widescreen,
+soft studio lighting on a minimalist alabaster surface. Smooth continuous
+gliding camera moves across four sleek miniature isometric business dioramas
+aligned in sequence and connected by a luminous cobalt-blue and emerald-green
+flow line: first a tidy corporate office, second a clean organized industrial
+warehouse, third a modern automotive repair bay with a stylized car, and fourth
+a bright minimalist medical clinic. Above each diorama, a subtle emerald-green
+shield with a checkmark softly illuminates to signify complete operational
+control. Steady cinematic lateral glide. No text, serious and polished
+aesthetic.
+
+[VOZ EN OFF / SUBTÍTULO SUGERIDO EN EDICIÓN]
+"Ya sea administración, industria, escuelas, servicios, talleres o consultorios:
+ordenamos tu operación para que ahorres tiempo y aumentes tus resultados."
+
+
+--------------------------------------------------------------------------------
+FRAGMENTO 5 (00:32 – 00:40) · TRANQUILIDAD DIRECTIVA Y CIERRE DE MARCA BBM
+--------------------------------------------------------------------------------
+Objetivo visual: Transmitir serenidad, respaldo y cerrar con fuerza visual
+mostrando la identidad sobria de BBM.
+
+[PROMPT EN ESPAÑOL]
+Mismo estilo de animación 3D corporativa limpia en 16:9. Las líneas luminosas
+azul cobalto y verde esmeralda del plano anterior convergen suavemente hacia el
+centro de la pantalla, donde la superficie clara se transforma en un fondo
+elegante azul marino profundo (#0B1220) con profundidad atmosférica suave. En el
+centro se ensambla un emblema hexagonal minimalista de líneas limpias en azul
+cielo y blanco, revelando en su interior las letras limpias "BBM" en tipografía
+geométrica moderna y sobria. Iluminación sutil, movimiento de cámara muy estable
+con ligero alejamiento elegante hasta quedar en reposo profesional. Sin efectos
+exagerados, transmite confianza, seriedad y control total.
+
+[PROMPT OPTIMIZADO EN INGLÉS]
+Same refined 3D corporate motion graphics style, 16:9 widescreen. The clean
+cobalt-blue and emerald-green light lines converge gracefully toward the center
+of the frame as the scene smoothly transitions into a deep executive obsidian
+navy background (#0B1220) with soft layered ambient depth. At the center, a
+minimalist geometric hexagonal emblem assembles with precision in crisp white
+and sky-blue accents, cleanly revealing the bold geometric letters "BBM" inside.
+Calm, steady micro-pullback camera motion settling into a balanced still lockup.
+Executive, serious, trustworthy brand outro, no flashy sparks or neon clutter.
+
+[VOZ EN OFF / SUBTÍTULO SUGERIDO EN EDICIÓN]
+"BBM. Control total, procesos claros y tranquilidad para dirigir tu empresa."
+
+
+================================================================================
+3. INSTRUCCIONES PARA UNIR LOS 5 FRAGMENTOS EN UN SOLO VIDEO (40 SEGUNDOS)
+--------------------------------------------------------------------------------
+1. Genera cada uno de los 5 fragmentos por separado en 16:9 (preferentemente a
+   8 segundos cada uno, o 5-6 segundos si la herramienta elegida usa clips más
+   cortos, dando un video final de entre 30 y 40 segundos).
+2. En tu editor de video (CapCut, DaVinci Resolve, Premiere o similar), coloca
+   los fragmentos en orden exacto: 1 -> 2 -> 3 -> 4 -> 5.
+3. Usa transiciones limpias de disolución cruzada suave (0.35 a 0.5 segundos)
+   entre fragmentos para mantener el ritmo ejecutivo y continuo.
+4. Añade música de fondo corporativa tranquila y moderna (piano suave + pulso
+   electrónico minimalista en volumen bajo, -18 dB si lleva voz en off).
+5. Opcional: agrega subtítulos limpios en fuente sans-serif blanca sobre banda
+   sutil inferior y en los últimos 3 segundos coloca los datos de contacto:
+   WhatsApp: 961 240 5685 · gabrielhbs.dev@gmail.com
+6. Exportación recomendada para la plataforma web BBM:
+   - Resolución: 1920 x 1080 px (Full HD)
+   - Formatos: MP4 (H.264, bitrate 6-8 Mbps) y copia en WebM para carga rápida.
+   - Ubicación sugerida en el proyecto: public/videos/bbm-institucional.mp4
+================================================================================
