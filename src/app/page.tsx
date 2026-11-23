@@ -19,9 +19,9 @@ import {
   PROPOSAL_CATEGORIES,
   SUBSCRIPTION_PLATFORMS,
 } from "@/data/bbm-content";
-import { MediaPlaceholder } from "@/components/media-placeholder";
 import { LiveControlDashboard } from "@/components/live-control-dashboard";
 import { SubscriptionPlatformSimulator } from "@/components/section-live-animations";
+import { InstitutionalVideoAnimation } from "@/components/institutional-video-animation";
 import {
   DiagnosticBlueprintVisual,
   SpecialInstallationsVisual,
@@ -518,14 +518,7 @@ export default function HomePage() {
 
           <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-12">
             <Reveal className="lg:col-span-7">
-              <MediaPlaceholder
-                aspect="landscape"
-                mediaType="video"
-                title="Video institucional — Cómo BBM transforma la operación de una empresa"
-                description="Video breve (45 a 60 segundos) sin tecnicismos: muestra el contraste entre una oficina saturada de papeleo y una empresa ordenada trabajando con plataformas de BBM en computadora y celular, cerrando con la tranquilidad del dueño revisando sus reportes."
-                dimensions="1920 × 1080 px (Full HD)"
-                format="MP4 (H.264) / WebM"
-              />
+              <InstitutionalVideoAnimation />
             </Reveal>
             <Reveal delay={0.08} className="grid grid-cols-1 gap-6 lg:col-span-5">
               <div className="relative aspect-[3/2] w-full overflow-hidden rounded-xl border border-slate-200/90 bg-slate-100 shadow-sm">

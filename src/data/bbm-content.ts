@@ -442,6 +442,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     specialty: "Estructura interna, seguridad y solidez de plataformas",
     description:
       "Diseña el motor interno que hace funcionar cada plataforma con precisión y estabilidad. Se asegura de que las reglas de tu negocio, los datos y los controles internos operen sin fallas y con total resguardo.",
+    photoSrc: "/images/team/melquiades.webp",
     media: {
       title: "Retrato — Ing. José Melquiades",
       description:
@@ -513,11 +514,21 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     name: "Ing. Damián Carpio",
-    degree: "Ingeniero en Electrónica y Comunicaciones",
+    degree: "Ingeniero en Comunicaciones y Electrónica (ESIME-IPN)",
     role: "Instalador de Hardware, Equipamiento y Seguridad",
-    specialty: "Cámaras de seguridad, redes y cerrojos inteligentes",
+    specialty: "Centros de datos, redes certificadas, CCTV y control de acceso",
     description:
-      "Integra el mundo físico con el control digital. Como Ingeniero en Electrónica y Comunicaciones especializado en instalaciones especiales, implementa equipamiento, redes, cámaras de seguridad y cerrojos inteligentes que protegen y ordenan las instalaciones de cada empresa.",
+      "Egresado de la ESIME-IPN con más de 30 años diseñando y ejecutando proyectos de centros de datos, cableado estructurado, fibra óptica, cámaras de seguridad, control de acceso y detección inteligente de incendios. Cuenta con certificaciones en CCTV, control de acceso, sistemas contra incendio e ISO 9001, integrando el respaldo físico con el control digital de cada empresa.",
+    experienceHighlight: "Experiencia en infraestructura y seguridad crítica con:",
+    experienceCompanies: [
+      { id: "pemex", name: "PEMEX", context: "Plataforma marina Sonda de Campeche" },
+      { id: "panasonic", name: "Panasonic", context: "Diseño y jefatura de control de calidad" },
+      { id: "judicatura", name: "Judicatura Federal", context: "Detección inteligente de incendios" },
+      { id: "crowne", name: "Crowne Plaza", context: "Centro de Datos · 360 nodos" },
+      { id: "unicach", name: "UNICACH", context: "Redes certificadas Panduit 20 años y fibra óptica" },
+      { id: "unach", name: "UNACH", context: "Biblioteca Maya · Red y CCTV" },
+      { id: "salud", name: "Secretaría de Salud", context: "Clínicas y centros de salud en Chiapas" },
+    ],
     media: {
       title: "Retrato — Ing. Damián Carpio",
       description:

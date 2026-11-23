@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { ArrowUpRight, Briefcase, ShieldCheck, Users } from "lucide-react";
+import { ArrowUpRight, Briefcase, ShieldCheck, UserRound, Users } from "lucide-react";
 import { BBM_CONTACT, TEAM_MEMBERS } from "@/data/bbm-content";
-import { MediaPlaceholder } from "@/components/media-placeholder";
-import { TeamCoordinationSimulator } from "@/components/section-live-animations";
+import { MultidisciplinaryTeamStage } from "@/components/team-stage-animation";
+import { TeamValueComparison } from "@/components/team-value-comparison";
 import { CompanyExperienceBadges } from "@/components/company-experience-badges";
 import { ContactCta } from "@/components/contact-cta";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion-primitives";
@@ -69,20 +69,14 @@ export default function EquipoPage() {
             </Reveal>
           </div>
 
-          {/* Live Team Coordination Animation */}
+          {/* Unique Multidisciplinary Team Stage Animation */}
           <Reveal delay={0.1} className="mt-10">
-            <TeamCoordinationSimulator />
+            <MultidisciplinaryTeamStage />
           </Reveal>
 
-          {/* Group Team Photo Placeholder (Preserved for Phase 2) */}
-          <Reveal delay={0.14} className="mt-8">
-            <MediaPlaceholder
-              aspect="wide"
-              title="Fotografía grupal — Equipo multidisciplinario BBM"
-              description="Fotografía grupal formal y natural de los 7 integrantes principales de BBM reunidos en una oficina moderna o espacio corporativo luminoso, transmitiendo unidad, capacidad técnica, seriedad y confianza."
-              dimensions="1920 × 900 px"
-              format="WebP / JPG"
-            />
+          {/* Marketing Value Comparison: Traditional Provider vs BBM Team */}
+          <Reveal delay={0.14} className="mt-6">
+            <TeamValueComparison />
           </Reveal>
         </div>
       </section>
@@ -121,14 +115,26 @@ export default function EquipoPage() {
                       />
                     </div>
                   ) : (
-                    <MediaPlaceholder
-                      compact
-                      aspect="portrait"
-                      title={member.media.title}
-                      description={member.media.description}
-                      dimensions={member.media.dimensions}
-                      format={member.media.format}
-                    />
+                    <div className="relative flex aspect-[4/5] w-full flex-col items-center justify-center rounded-md border border-slate-200/90 bg-gradient-to-b from-white via-slate-50 to-slate-100/80 px-6 text-center">
+                      <div className="flex h-20 w-20 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-400 shadow-xs">
+                        <UserRound className="h-9 w-9" aria-hidden="true" />
+                      </div>
+                      <p className="mt-4 text-sm font-semibold text-[#0b1220]">
+                        Sin fotografía disponible
+                      </p>
+                      <p className="mt-1 max-w-[210px] text-xs leading-relaxed text-slate-500">
+                        Retrato profesional de este especialista en proceso de
+                        actualización.
+                      </p>
+
+                      {/* Especificación preservada de forma oculta para futura fotografía real */}
+                      <div hidden data-phase2-photo-spec={member.name}>
+                        <p>1.- Título: {member.media.title}</p>
+                        <p>2.- Descripción: {member.media.description}</p>
+                        <p>3.- Tamaño: {member.media.dimensions}</p>
+                        <p>4.- Formato: {member.media.format}</p>
+                      </div>
+                    </div>
                   )}
                 </div>
 

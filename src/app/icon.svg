@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bbm-bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1220" />
+      <stop offset="100%" stop-color="#13264A" />
+    </linearGradient>
+    <linearGradient id="bbm-ring" x1="64" y1="64" x2="448" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bbm-bg)" />
+  <rect x="24" y="24" width="464" height="464" rx="88" fill="none" stroke="url(#bbm-ring)" stroke-width="14" stroke-opacity="0.85" />
+  <text
+    x="256"
+    y="292"
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="DejaVu Sans, Arial, Helvetica, sans-serif"
+    font-size="146"
+    font-weight="700"
+    letter-spacing="10"
+  >BBM</text>
+  <rect x="148" y="336" width="216" height="14" rx="7" fill="url(#bbm-ring)" />
+</svg>

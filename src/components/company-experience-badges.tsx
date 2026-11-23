@@ -99,6 +99,69 @@ function CompanyMark({ id }: { id: string }) {
           P
         </span>
       );
+    case "pemex":
+      return (
+        <span
+          aria-hidden="true"
+          className="inline-flex h-4 items-center rounded-[2px] bg-[#006341] px-1 font-mono text-[8px] font-bold tracking-tight text-white"
+        >
+          PMX
+        </span>
+      );
+    case "panasonic":
+      return (
+        <span
+          aria-hidden="true"
+          className="inline-flex h-4 items-center rounded-[2px] bg-[#0041C0] px-1 font-sans text-[8px] font-bold tracking-tight text-white"
+        >
+          P
+        </span>
+      );
+    case "judicatura":
+      return (
+        <span
+          aria-hidden="true"
+          className="inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-sm bg-slate-800 font-mono text-[8px] font-bold text-amber-300"
+        >
+          JF
+        </span>
+      );
+    case "crowne":
+      return (
+        <span
+          aria-hidden="true"
+          className="inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-[#7C2D12]/12 font-serif text-[9px] font-bold text-[#7C2D12]"
+        >
+          CP
+        </span>
+      );
+    case "unicach":
+      return (
+        <span
+          aria-hidden="true"
+          className="inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-sm bg-[#15428b]/12 font-mono text-[8px] font-bold text-[#15428b]"
+        >
+          UC
+        </span>
+      );
+    case "unach":
+      return (
+        <span
+          aria-hidden="true"
+          className="inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-sm bg-[#0F2C59]/12 font-mono text-[8px] font-bold text-[#0F2C59]"
+        >
+          UN
+        </span>
+      );
+    case "salud":
+      return (
+        <span
+          aria-hidden="true"
+          className="inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-emerald-600/15 font-sans text-[10px] font-bold text-emerald-700"
+        >
+          +
+        </span>
+      );
     default:
       return null;
   }
